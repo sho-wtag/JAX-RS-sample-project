@@ -1,6 +1,7 @@
 package org.dihan.bracits.messenger;
 
 import java.util.Date;
+import java.util.Map;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -47,5 +48,7 @@ public class Message {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+
+
 	
 }
